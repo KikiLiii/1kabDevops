@@ -24,13 +24,7 @@ on:
 
 permissions:
   contents: read
-tools:
-  eslint:
-    enabled: true
-    patternIncludes:
-      - "**/*.js"
-    patternExcludes:
-      - "node_modules/**"
+
 
 jobs:
   codacy-security-scan:
